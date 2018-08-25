@@ -1,2 +1,2 @@
-# snippets
-Random sinppets
+# RANDOM SNIPPETS
+Random snippets of stuffs I'm working on.
