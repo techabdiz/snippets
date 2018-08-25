@@ -6,7 +6,7 @@
 
 void executeLogic(){
 
-    int fd = open("/dev/sdb", O_RDONLY); // Pass device file as argument, REQUIRES ROOT FOR EXECUTION
+    int fd = open("/dev/sdb", O_RDONLY); // Pass device file as argument, REQUIRES ROOT TO EXECUTE
     printf("seeked at: %d\n", lseek(fd, 1024, 0)); //seek to offset 1024 from start of device
     void *buffer = malloc(1024);
     printf("read %d byte(s) from buffer\n\n", read(fd, buffer, 1024));
